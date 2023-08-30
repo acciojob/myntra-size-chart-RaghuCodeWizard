@@ -1,2 +1,36 @@
-
 /* Your CSS Code here. */
+table {
+    border: 2px solid black;
+    border-collapse: collapse;
+    width: 100%; /* To ensure the table takes the full width of its container */
+    margin-top: 20px; /* Adding some spacing at the top */
+}
+
+th, td {
+    border: 1px solid black;
+    padding: 8px; /* Adding padding for cell content */
+}
+
+#head {
+    text-align: left;
+    background-color: #c0504d;
+    color: white;
+}
+
+#wa {
+    color: white;
+    background-color: #da9694;
+}
+
+#ch {
+    background-color: #f2dcdb;
+}
+
+#sleeve {
+    background-color: #d9d9d9;
+}
+
+/* Align numbers to the right */
+.align-right {
+    text-align: right;
+}
